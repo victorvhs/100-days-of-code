@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:ital@1&display=swap');
+
+*{
+   
+    font-family: 'Mili', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+.container h1{
+    text-align: center;
+}
+.container .generator{
+    padding: 70px;
+    text-align: center;
+}
+.container .generator button{
+    background-color: #7E6CCA;
+    color: white;
+    font-weight: bolder;
+    width:393px;
+    height: 68px;
+    border-radius: 5%; 
+    cursor: pointer;
+}
+.container .generator p{
+    font-size: small;
+}
+.copymsg{
+    background-color: #000;
+    color: #FFF;
+    border-radius: 30px;
+    width: 420px;
+    height: 58px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxes{ 
+    display:flex;
+    justify-content: center;
+}
+.box{
+    height: 329px;
+    width: 207px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5%;
+    padding-top: 10px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    }
+.box p{
+    text-align: center;
+}
+.box:hover{
+    font-weight: bolder;
+    transform: translate(0px, -30px);
+}
+.box .one{
+    background-color: #EEEDF0;
+}
+.box .tow{
+    background-color: #A1B5C1;
+}
+.box .three{
+    background-color: #F9ACA7;
+}
+.box .four{
+    background-color: #68747D;
+}
+.box .five{
+    background-color: #CF365F;
+}
+.color-box{
+    width:187px;
+    height: 251px;
+    background-color: #F9aca7;
+    border-radius: 5%;    
+}
